@@ -1,48 +1,45 @@
-## 📚 Library Management System Java/Spring Boot/Thymeleaf/PostgreSQL
+## System for Library Management  with Java, Spring Boot, and PostgreSQL
 
-A Library Management System made using the concepts of Object Oriented Analysis and Design. 
-
+### Overview:
+This Library Management System utilizes Object Oriented Analysis and Design principles to create a robust and user-friendly application.
 
 ### Actors:
-The actors include the following: 
-* Student
-* Borrower
-* Administrator
-
+The system features the following key actors:
+- **Student**
+- **Borrower**
+- **Administrator**
 
 ### Use Cases:
-After determining the actors, the second step in use case analysis is to determine the tasks that each actor will need to do with the system. Each task is called a use case because it represents one particular way the system will be used.
+Identifying the tasks that each actor will perform with the system is essential. These tasks, known as use cases, represent specific functionalities that help solve the customer’s needs.
 
-**In other words, only those use cases are listed that actors will need to do when they are using the system to solve the customer’s problem.** 
+#### Student Use Cases:
+- **Search for books by title.**
+- **Search for books by author.**
+- **Search for books by category.**
+- **View details of a book.**
+- **View details of an author.**
+- **View details of a category.**
+- **Borrow a new book.** *Books can be borrowed if available, with a return date set between the current date and three months from now.*
+- **View the list of currently borrowed books.**
+- **Return borrowed books.**
 
+#### Administrator Use Cases:
+- **Search for books by title.**
+- **Search for books by author.**
+- **Search for books by category.**
+- **View details of a book.**
+- **View details of an author.**
+- **View details of a category.**
+- **Update the available quantity of a book.**
+- **Add, delete, or modify book records.**
+- **Add, delete, or modify category records.**
+- **Add, delete, or modify author records.**
 
-#### Student:
-* ❏ Search for books by name.
-* ❏ ... by author.
-* ❏ ... by category.
-* ❏ See details of a book.
-* ❏ ... an author.
-* ❏ ... a category.
-* ❏ Borrow a new Book. **if a book is available the return date should be between the current date and current date plus three months.**
-* ❏ Check the list of books currently borrowed.
-* ❏ Return borrowed books.
-
-#### Administrator:
-* ❏ Search for books by book name.
-* ❏ ... by author.
-* ❏ ... by category.
-* See details of a book.
-* ❏ ... an author.
-* ❏ ... a category.
-* ❏ Update the available quantity of a book.
-* ❏ Add/delete/modify a Book.
-* ❏ Add/delete/modify a Category.
-* ❏ Add/delete/modify an Author.
-
-
-### Tech stack:
-   * Spring Boot
-   * Spring Data Jpa
-   * H2 Database
-   * Thymeleaf
-   * Bootstrap4
+### Technology Stack:
+- **Spring Boot**
+- **Spring Data JPA**
+- **H2 Database**
+- **Thymeleaf**
+- **Bootstrap 4**
+### Prospective Implementation:
+- **Future updates will include integrating GraphQL to enhance the system's performance and flexibility.**

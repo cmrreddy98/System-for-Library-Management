@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ensas</groupId>
-    <artifactId>Library-Management-System</artifactId>
+    <artifactId>System-for-Library-Management</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Library-Management-System</name>
-    <description>Library-Management-System</description>
+    <name>System-for-Library-Management</name>
+    <description>System-for-Library-Management</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
